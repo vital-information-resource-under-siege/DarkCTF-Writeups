@@ -12,4 +12,36 @@ Then go to File->Add Evidence Item->Image file Radio Button->Next->Browse->Selec
 
 ![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Wolfie's%20Contact/Images/forensics_writeup2.JPG)
 
-We can see a folder called Contacts in the left side Evidence tree menu
+We can see a folder called Contacts in the left side Evidence tree menu .Let's select that folder and view the files in that folder.
+
+And one file called the dealer.contact has a flag like value in between the <c:Notes> tag .It seems like it is part of a flag.
+
+darkCTF{
+
+![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Wolfie's%20Contact/Images/forensics_writeup3.JPG)
+
+Let's search for more files with values in between <c:Notes> tag.
+
+Ah well!!In the broker.contact file we got a another flag like value.
+
+C0ntacts_
+
+![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Wolfie's%20Contact/Images/forensics_writeup4.JPG)
+
+Let's check more files in this folder which has <c:Notes> tag with a value in between them.
+
+Wowiee!!Another interesting file that has a value between <c:Notes> that looks like a flag.
+
+4re_
+
+![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Wolfie's%20Contact/Images/forensics_writeup5.JPG)
+
+Okkk I think it's end of the road for the challenge because a tag appears to be the having the closing braces for the flag format ..Let's try assembling it and see if any more value is missing .
+
+1mp0rtant}
+
+No more parts are required I was able to submit the flag.
+
+![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Wolfie's%20Contact/Images/forensics_writeup6.JPG)
+
+The flag for the challenge is  darkCTF{C0ntacts_4re_1mp0rtant}
