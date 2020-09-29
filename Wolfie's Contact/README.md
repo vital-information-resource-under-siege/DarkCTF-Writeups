@@ -10,5 +10,6 @@ Using file command, I found that it is of EWF file format and then I searched th
 
 Then go to File->Add Evidence Item->Image file Radio Button->Next->Browse->Select the Challenge file->Click Finish.
 
+![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Wolfie's%20Contact/Images/forensics_writeup2.JPG)
 
-
+We can see a folder called Contacts in the left side Evidence tree menu
