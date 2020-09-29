@@ -41,7 +41,7 @@ In the left side you can see different options that can used for analyzing this 
 
 ![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Free%20Games/Images/free%20games8.JPG)
 
-Okk from the downloads among media files there is a zip file called PencakSilat that can be a game let's try a google search one the game.
+Okk from the downloads among media files there is a zip file called PencakSilat that can be a game let's try a google search on the game.
 
 ![alt_text](https://github.com/vital-information-resource-under-siege/DarkCTF-Writeups/blob/master/Free%20Games/Images/free%20games9.JPG)
 
